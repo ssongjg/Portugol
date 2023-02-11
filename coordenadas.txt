@@ -1,0 +1,51 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+ x, y : real
+ quadrante1 : real
+
+
+Inicio
+
+
+escreva("Valor de X: ")
+leia(x)
+escreva("Valor de Y: ")
+leia(y)
+
+
+
+se (x > 0) e ( y > 0) entao
+  escreva("Q1")
+fimse
+
+se (x < 0) e ( y > 0) entao
+  escreva("Q2")
+fimse
+
+se (x < 0) e ( y < 0) entao
+  escreva("Q3")
+fimse
+
+se (x > 0) e ( y < 0) entao
+  escreva("Q4")
+fimse
+
+
+se (x > 0) e ( y = 0) entao
+  escreva("eixo x")
+fimse
+  
+  
+se (x = 0) e ( y > 0) entao
+  escreva("eixo y")
+fimse
+
+se (x = 0) e ( y = 0) entao
+  escreva("origem")
+fimse
+
+Fimalgoritmo

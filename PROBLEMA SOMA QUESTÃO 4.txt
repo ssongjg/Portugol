@@ -1,0 +1,24 @@
+Algoritmo "Problema soma"
+//Fazer um programa para ler dois valores inteiros X e Y, e
+//depois mostrar na tela o valor da soma destes numero
+
+var
+x, y, soma : inteiro
+
+//-------------------
+
+Inicio
+escreval
+escreva("Digite o valor de X: ")
+leia(x)
+Escreva("Digite o valor de Y: ")
+leia(y)
+//------------------------------
+
+soma <- (x+y)
+
+escreva("SOMA = ", soma)
+
+
+
+Fimalgoritmo

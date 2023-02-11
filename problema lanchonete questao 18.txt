@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+
+
+
+
+
+
+
+Var
+
+x : inteiro
+precoproduto : real
+quantidadedeproduto : real
+valorAserPago : real
+
+Inicio
+
+
+escreva("Codigo do produto comprado: ")
+leia(x)
+
+escolha  x
+ caso 1
+ precoproduto <- 5.00
+ caso 2
+ precoproduto <- 3.5
+ caso 3
+ precoproduto <- 4.80
+ caso 4
+ precoproduto <- 8.90
+ caso 5
+ precoproduto <- 7.32
+ outrocaso
+ precoproduto <- "produto inexistente"
+fimescolha
+
+escreva ("Quantidade comprada: ")
+leia(quantidadedeproduto)
+
+ valorAserPago <- quantidadedeproduto * precoproduto
+ escreva("Valor a pagar: R$ ",valorAserPago:2:2)
+
+Fimalgoritmo

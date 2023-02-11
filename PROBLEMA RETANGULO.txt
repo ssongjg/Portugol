@@ -1,0 +1,42 @@
+Algoritmo "Problema retangulo"
+
+
+
+var
+
+base : real
+altura : real
+//----informações digitadas pelo usuario
+area : real
+perimetro : real
+diagonal : real
+SDQ : real
+raiz : real
+//---resultado das informações digitadas pelo usuario
+
+Inicio
+
+
+
+escreval
+escreva("Digite a base do retangulo : ")
+leia(base)
+escreval
+escreva("Digite a altura do retangulo : ")
+leia(altura)
+escreval
+
+area <- (base * altura)
+escreva("AREA : ", area:8:4)
+escreval
+
+perimetro <- 2 * (base + altura)
+escreva("PERIMETRO", perimetro:8:4)
+
+
+SDQ <- ((base^2)+(altura^2))
+raiz <- RaizQ(SDQ)
+escreval
+escreva("DIAGONAL", raiz:8:4)
+
+Fimalgoritmo

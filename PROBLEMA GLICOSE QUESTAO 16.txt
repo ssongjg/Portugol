@@ -1,0 +1,26 @@
+Algoritmo "glicose"
+
+var
+
+MedidaDeGlicose : real
+
+
+
+Inicio
+
+
+escreva("Digite a medida da glicose: ")
+leia(MedidaDeGlicose)
+
+se (MedidaDeGlicose <= 100 ) entao
+  escreva("classificacao : normal")
+senao
+ se (MedidaDeGlicose > 100) e (MedidaDeGlicose <= 140 ) entao
+      escreva("classificacao : elevado")
+    senao
+    escreva("classificacao : diabetes")
+ fimse
+
+fimse
+
+Fimalgoritmo

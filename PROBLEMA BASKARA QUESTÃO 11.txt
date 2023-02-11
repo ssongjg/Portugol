@@ -1,0 +1,44 @@
+Algoritmo "problema baskara"
+
+var
+
+a, b, c : real
+delta, d : real
+x1, x2 : real
+//formula
+
+Inicio
+
+escreva("Digite o coeficiente a: ")
+leia(a)
+
+escreva("Digite o coeficiente b: ")
+leia(b)
+
+escreva("Digite o coeficiente c: ")
+leia(c)
+
+
+
+delta <- ((b^2) - 4 * a * c)
+
+   se delta > 0 entao
+      d <- RaizQ(delta)
+      x1 <- (-b + d / (2 * a))
+      x2 <- (-b - d / (2 * a))
+      escreval
+      escreva("X1 = ", x1:4:4)
+      escreval
+      escreva("X2 = ", x2:4:4)
+   senao
+   
+      se delta < 0 entao
+          escreva("sua equação nao possui raizes reais!!")
+       fimse
+   fimse
+
+
+
+
+
+Fimalgoritmo

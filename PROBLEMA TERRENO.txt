@@ -1,0 +1,46 @@
+Algoritmo "Problema terreno""
+
+
+Var
+
+largura : real
+comprimento : real
+vmq : real  //vmq = valor do metro quadrado
+//>>>>>>>>>>>>>>>>>informações do terreno<<<<<<<<<<<<<<<<<<<<<<
+
+areaTerreno : real
+valorTerreno : real
+
+
+Inicio
+
+escreva("Digite a largura do terreno (em metros) : ")
+leia(largura)
+escreval
+escreva("Digite o comprimento do terreno ( em metros) : ")
+leia(comprimento)
+escreval
+escreva("Agora, informe o valor do metro quadrado do seu terreno : ")
+leia(vmq)
+//>>>>>>>>>>>>>inf terreno>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+areaTerreno <- (largura * comprimento)
+escreval
+escreva("area do terreno em metros quadrados eh : ", areaTerreno:5:2)
+escreval
+
+valorTerreno <- (areaTerreno * vmq)
+escreval
+escreva("O valor do terreno eh de R$ ", valorTerreno:6:2)
+escreval
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo

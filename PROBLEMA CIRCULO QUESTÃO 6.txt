@@ -1,0 +1,22 @@
+Algoritmo "Problema circulo"
+
+
+var
+
+raio : real
+area : real
+
+Inicio
+
+
+
+escreval
+escreva("Digite o valor do raio do circulo: ")
+leia(raio)
+//---------------------------------------------
+
+area <- Pi * (raio^2)
+escreva("AREA DO CIRCULO : ", area:4:3)
+
+
+Fimalgoritmo

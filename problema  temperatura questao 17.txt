@@ -1,0 +1,52 @@
+Algoritmo "semnome"
+
+
+
+
+
+var
+
+x : inteiro
+tempF : real
+tempC : real
+
+Inicio
+
+
+ escreval("Voce vai digitar a temperatura em qual escala (Celsius = 1 /Fahrenheit = 2)?")
+ leia(x)
+
+ escreval
+ se (x = 1 )entao
+   escreva("Digite a temperatura em Celsius:")
+   leia(tempC)
+   tempF <- (1.8 * tempC + 32)
+   escreva("Temperatura equivalente em Fahrenheit:", tempF)
+ fimse
+
+ se (x = 2)entao
+   escreva ("Digite a temperatura em Fahrenheit:")
+   escreval
+   leia(tempF)
+   tempC <- ((tempF - 32) / 1.8)
+   escreva("Temperatura equivalente em Celsius: ", tempC:4:2)
+ fimse
+
+
+ se (x <> 1) e (x <> 2) entao
+    escreva("valor digitado invalido")
+ fimse
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo

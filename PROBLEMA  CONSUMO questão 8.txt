@@ -1,0 +1,30 @@
+Algoritmo "Problema  consumo"
+
+
+var
+DistanciaPercorrida : real
+GastoDeCombustivel  : real
+ConsumoMedio : real
+//-------------------------
+inicio
+
+escreval
+
+escreva("Digite em KM a distancia percorrida :")
+leia(DistanciaPercorrida)
+
+escreval
+
+escreva("agora digite a quantidade de combustivel gasto em litros: ")
+leia(GastoDeCombustivel)
+
+escreval
+//--------------------------------------------------------------------
+
+ConsumoMedio <- (DistanciaPercorrida/GastoDeCombustivel)
+escreva("Seu carro faz ", ConsumoMedio:4:3, " KM/L")
+
+
+
+
+Fimalgoritmo

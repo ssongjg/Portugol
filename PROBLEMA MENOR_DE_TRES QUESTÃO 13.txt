@@ -1,0 +1,36 @@
+Algoritmo "menor_de_tres"
+
+var
+a, b, c : inteiro
+
+
+Inicio
+
+escreva("Primeiro valor: ")
+leia(a)
+
+escreva("Segundo valor: ")
+leia(b)
+
+escreva("Terceiro valor: ")
+leia(c)
+
+  se (a <= b) e (a <= c) entao
+    escreva("MENOR :", a)
+  senao
+    se (b <= c) e (b <= a) entao
+       escreva("MENOR :", b)
+      senao
+       se (c <= a) e (c <= b) entao
+         escreva("MENOR :", c)
+        fimse
+    fimse
+  fimse
+
+
+
+
+Fimalgoritmo
+
+
+

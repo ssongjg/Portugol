@@ -1,0 +1,56 @@
+Algoritmo "Problema  medidas"
+
+
+
+var
+
+A, B, C : real
+
+ADQ : real // area do quadrado
+AT  : real // area do triangulo retangulo (A é base e B altura)
+ATR : real // area do trapezio ( A e B sao as bases e C altura)
+
+
+
+inicio
+
+
+escreval
+escreva("Digite a Medida A :")
+leia(A)
+
+
+
+escreva("Digite a Medida B :")
+leia(B)
+
+
+escreva("Digite a Medida C :")
+leia(C)
+
+//----------medidas digitadas pelo usuário----------------
+
+ADQ <- (A * A)
+escreval
+
+escreva("AREA DO QUADRADO :", ADQ:4:4)
+//-------area do quadrado de lado de a ------------
+
+
+
+AT <- (B * A)/2
+escreval
+escreva("AREA DO QUADRADO :", AT:4:4)
+ 
+//-----------area do triangulo retângulo---------------------
+
+escreval
+ATR <- ((A+B)*C)/2
+escreval("AREA DO TRAPEZIO :", ATR:4:4)
+
+Fimalgoritmo
+
+
+
+
+

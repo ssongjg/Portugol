@@ -1,0 +1,82 @@
+Algoritmo "Problema aumento questao 20"
+
+
+Var
+SA : real
+novosalario : real
+formula : real
+aumento : real
+porcentagem : real
+Inicio
+
+ escreva("Digite o salario da pessoa: ")
+ leia(SA)
+
+
+
+
+
+
+
+
+
+se SA <= 1000 entao
+  porcentagem <- 0.20
+   senao
+      se (SA > 1000) e (SA <= 3000) entao
+          porcentagem <- 0.15
+      senao
+        se (SA > 3000 ) e (SA <= 8000) entao
+            porcentagem <- 0.10
+        senao
+           porcentagem <- 0.05
+        fimse
+      fimse
+fimse
+
+
+novosalario <- SA * porcentagem
+aumento <- (novosalario+SA - SA)
+
+se SA <= 1000 entao
+  escreva("Novo salario = R$", novosalario+SA:4:2)
+  escreval
+  escreva("Aumento = R$ ",aumento:4:2)
+  escreval
+  escreva("Porcentagem = ", porcentagem * 100, "%")
+  
+senao
+
+   se (SA > 1000) e (SA <= 3000) entao
+      escreva("Novo salario = R$", novosalario+SA:4:2)
+      escreval
+      escreva("Aumento = R$ ",aumento:4:2)
+      escreval
+      escreva("Porcentagem = ", porcentagem * 100, "%")
+   senao
+   
+        se (SA > 3000 ) e (SA <= 8000) entao
+          escreva("Novo salario = R$", novosalario+SA:4:2)
+          escreval
+          escreva("Aumento = R$ ",aumento:4:2)
+          escreval
+          escreva("Porcentagem = ", porcentagem * 100, "%")
+          
+          
+        senao
+          escreva("Novo salario = R$", novosalario+SA:4:2)
+          escreval
+          escreva("Aumento = R$ ",aumento:4:2)
+          escreval
+          escreva("Porcentagem = ", porcentagem * 100, "%")
+  fimse
+ 
+ fimse
+
+fimse
+
+
+
+
+
+Fimalgoritmo

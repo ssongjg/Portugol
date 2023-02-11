@@ -1,0 +1,80 @@
+Algoritmo "experiencias"
+
+
+
+
+Var
+
+i, numerodetestes, quantascobaias, sapos, coelhos, ratos, soma : inteiro
+tipodecobaia : caractere
+
+PC, PR, PS : real
+
+
+
+Inicio
+
+ escreva("Quantos casos de teste serao digitados? ")
+ leia(numerodetestes)
+
+soma <- 0
+sapos <- 0
+coelhos <- 0
+ratos <- 0
+
+
+
+para i de 1 ate numerodetestes faca
+
+     escreva("Quantidade de cobaias: ")
+     leia(quantascobaias)
+     escreva("Tipo de cobaia: ")
+     leia(tipodecobaia)
+soma <- soma + quantascobaias
+
+se tipodecobaia = "R" entao
+     ratos <- ratos + quantascobaias
+senao
+   se tipodecobaia = "S" entao
+        sapos <- sapos + quantascobaias
+   senao
+     se tipodecobaia = "C" entao
+            coelhos <- coelhos + quantascobaias
+      fimse
+     fimse
+  fimse
+fimpara
+
+PC <- 0
+PS <- 0
+PR <- 0
+
+
+
+escreval("Total: ", soma, " cobaias")
+escreval("ratos: ", ratos)
+escreval("sapos: ", sapos)
+escreval("coelhos: ", coelhos)
+
+
+PC <- (coelhos/soma) * 100
+PS <- (sapos/soma) * 100
+PR <- (ratos/soma) * 100
+
+
+escrevaL("Percentual de coelhos: ", PC:2:2)
+escrevaL("Percentual de ratos: ", PS:2:2)
+escrevaL("Percentual de sapos: ", PR:2:2)
+
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo

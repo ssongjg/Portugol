@@ -1,0 +1,36 @@
+Algoritmo "Problema  pagamento"
+
+
+var
+nome : caractere
+VPH :  real// valor por hora
+HT :   real// horas trabalhadas
+PT :   real// pagamento total
+//-----------------------------
+Inicio
+
+escreval
+escreva("Nome do funcionario(a): ")
+leia(nome)
+
+escreval
+
+escreva("Digite o valor por hora: ")
+leia(VPH)
+
+escreval
+
+escreva("Digite a quantidade de horas trabalhadas: ")
+leia(HT)
+
+escreval
+//----------------------------------------------------
+
+PT <- VPH * HT
+escreva("valor a ser pago para ", nome, " é de ", PT:2:2)
+
+
+
+
+
+Fimalgoritmo

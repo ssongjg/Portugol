@@ -1,0 +1,38 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+i, n, ND : inteiro
+dentro, fora : inteiro
+
+
+
+
+Inicio
+dentro <- 0
+fora <- 0
+
+
+
+ escreva("Quantos numeros voce vai digitar? ")
+ leia(n)
+ 
+ 
+ para i de 1 ate n faca
+   escreva("Digite um numero: ")
+   leia(ND)
+     se (ND >= 10) e (ND >= 20) entao
+       dentro <- dentro + 1
+     senao
+      fora <- fora + 1
+     fimse
+ fimpara
+
+escreval(dentro, " DENTRO")
+escreval(fora, " FORA")
+
+
+
+Fimalgoritmo

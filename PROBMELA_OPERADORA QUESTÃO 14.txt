@@ -1,0 +1,40 @@
+Algoritmo "probmela_operadora"
+
+
+
+var
+
+minutos : inteiro
+PB : real
+ME : real
+VE : real
+
+Inicio
+
+PB <- 50.00
+
+
+
+
+escreva("Digite a quantidade de minutos: ")
+leia(minutos)
+
+
+
+ME <- minutos - 100
+VE <- PB+(ME * 2.00)
+
+
+
+
+se (ME <= 0) entao
+ escreva("Valor a pagar : R$", PB:4:2)
+senao
+
+ escreva("Valor a pagar : R$", VE:4:2)
+
+fimse
+
+
+
+Fimalgoritmo

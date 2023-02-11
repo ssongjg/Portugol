@@ -1,0 +1,48 @@
+Algoritmo "media_idades"
+
+
+
+Var
+
+  idade : inteiro
+  media : inteiro
+  MI : real
+  quantasidade : inteiro
+
+Inicio
+
+  escreva("Digite as idades: ")
+  leia(idade)
+
+  media <- 0
+  quantasidade <- 0
+
+
+se (idade < 0) entao
+  escreva("IMPOSSIVEL CALCULAR ")
+
+
+senao
+
+enquanto idade >= 0 faca
+   quantasidade <- quantasidade + 1
+   media <- media + idade
+   leia(idade)
+
+
+
+fimenquanto
+
+
+MI <- (media/quantasidade)
+
+
+
+escreval("MEDIA: ",Mi:4:2)
+
+fimse
+
+
+
+
+Fimalgoritmo

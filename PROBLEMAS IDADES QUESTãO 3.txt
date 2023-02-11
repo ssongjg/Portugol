@@ -1,0 +1,38 @@
+Algoritmo "problemas idades questão 3"
+
+
+var
+//----
+IDADE1 : real
+IDADE2 : real
+//----
+NOME1 : caractere
+NOME2 : caractere
+//----
+MEDIA : real
+//----
+Inicio
+
+escreva("Dados da primeira pessoa :")
+escreval
+escreva("Nome :")
+leia(NOME1)
+escreva("Idade :")
+leia(IDADE1)
+//-------------------------------------
+Escreva("Dados da segunda pessoa :")
+escreval
+escreva("Nome :")
+leia(NOME2)
+escreva("Idade :")
+leia(IDADE2)
+//------------------------------------
+
+MEDIA <- (IDADE1 + IDADE2)/2
+ESCREVA("A idade média de ", NOME1," e ", NOME2, " de ", MEDIA, " anos")
+
+
+
+
+
+Fimalgoritmo

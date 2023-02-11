@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+
+Var
+
+soma, par, n: inteiro
+
+
+
+Inicio
+
+escreva("Digite um numero: ")
+leia(par)
+
+se par % 2 <> 0 entao
+   par <- par + 1
+fimse
+
+soma <- 5 * par + 20
+escreva("SOMA :", soma)
+ 
+
+
+
+
+
+
+
+Fimalgoritmo
